@@ -1,0 +1,16 @@
+body{
+	font-family: Microsoft YaHei;
+	background: #29B6F6;
+}
+#div01{
+	background: #29B6F6;
+	width: 1500px;
+	height: 300px;
+}
+#codes{
+	background: #ffeb3b;
+	width: 400px;
+	height: 200px;
+	margin: 0px 2px 2px 0px;
+	float: left;
+}
