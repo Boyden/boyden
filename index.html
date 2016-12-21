@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+	<link href="css/javascripts.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+	<h1>Codes:</h1>
+	<div id="div01">
+	<p id = "codes" align="left">we are friends!</p>
+	</div>
+	<script language="javascript" type="text/javascript" src = "javascripts/javascripts.js"></script>
+	<input type="password" name="password" value="password" id="password" />
+	<input type="submit" name="display" onclick="password()" value="display" id="display" />
+	<div onmouseover="over()" onmouseout="over()"><h2>This is inside the division</h2></div>
+	<form name="myform" action="">
+	Enter name:<input type="text" name="customer"/>
+	<input type="button" name="cookie" value="Set Cookie" onclick="WriteCookie()">
+	</form>
+	<a href="javascript:location.reload(true)">Refresh Page</a>
+	<p>Click on the following button, you will be redirected to ZhiHu</p>
+	<form>
+		<input type="button" name="redirected" value="Redirect Me" onclick="Redirect();">
+	</form>
+	<p>
+		Click the following button to see the result:
+	</p>
+	<form>
+		<input type="button" name="dialog" value="Click Me" onclick="warn();">
+	<p>
+		Click the following button to enter your name:
+	</p>
+		<input type="button" name="value" value="Click Me" onclick="getvalue();">
+	</form>
+	<p>
+		Click the following, this won't react at all!:
+	</p>
+		<a href="javascript:void(alert('nothing'))">Nothing</a>
+	<p>
+		Print the website:
+	</p>
+		<input type="button" name="Print" value="Print" onclick="window.print();">
+	<br>
+	<script type="text/javascript">
+		var mybook = new book("perl","mohtashim");
+		mybook.addprice(100);
+		document.write("Book title is:"+mybook.title+"<br>");
+		document.write("Book author is:"+mybook.author+"<br>");
+		document.write("Book price is:"+mybook.price+"<br>");
+		document.write("Book price is:"+mybook.addprice.price+"<br>");
+	</script>
+	<script type="text/javascript">
+		var mybook = new book01("perl","mohtashim");
+		mybook.addprice(100);
+		document.write("Book title is:"+mybook.title+"<br>");
+		document.write("Book author is:"+mybook.author+"<br>");
+		document.write("Book price is:"+mybook.price+"<br>");
+		document.write("Book price is:"+mybook.addprice.price+"<br>");
+	</script>
+	<script type="text/javascript">
+		var mybook = new book02("perl","mohtashim");
+		book02.prototype.price = null;
+		mybook.price = 100;
+		document.write("Book title is:"+mybook.title+"<br>");
+		document.write("Book author is:"+mybook.author+"<br>");
+		document.write("Book price is:"+mybook.price+"<br>");
+	</script>
+</body>
+</html>
