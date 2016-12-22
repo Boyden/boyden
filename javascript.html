@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+	<meta charset="UTF-8">
+	<link href="css/javascripts.css" type="text/css" rel="stylesheet"/>
+	<link href="https://www.google.com/images/branding/product/ico/googleg_lodp.ico" rel="shortcut icon">
+</head>
+<body>
+	<h1>Codes:</h1>
+	<div id="div01">
+	<p id = "codes" align="left">we are friends!</p>
+	</div>
+	<script language="javascript" type="text/javascript" src = "javascripts/javascripts.js"></script>
+	<a href="javascript:location.reload(true)">Refresh Page</a><br>
+	<div onmouseover="over()" onmouseout="over()"><h2>This is inside the division</h2></div>
+	<form name="myform" action="">
+	<input type="password" name="password" value="password" id="password" />
+	<input type="submit" name="display" onclick="password()" value="display" id="display" />
+	<br>
+	Enter name:<input type="text" name="customer"/>
+	<input type="button" name="cookie" value="Set Cookie" onclick="WriteCookie()">
+	</form>
+	<p>Click on the following button, you will be redirected to ZhiHu</p>
+	<form>
+		<input type="button" name="redirected" value="Redirect Me" onclick="Redirect();">
+	</form>
+	<p>
+		Click the following button to see the result:
+	</p>
+	<form>
+		<input type="button" name="dialog" value="Click Me" onclick="warn();">
+	<p>
+		Click the following button to enter your name:
+	</p>
+		<input type="button" name="value" value="Click Me" onclick="getvalue();">
+	</form>
+	<p>
+		Click the following, this won't react at all!:
+	</p>
+		<a href="javascript:void(alert('nothing'))">Nothing</a>
+	<p>
+		Print the website:
+	</p>
+		<input type="button" name="Print" value="Print" onclick="window.print();">
+	<br>
+	<script type="text/javascript">
+		var mybook = new book("perl","mohtashim");
+		mybook.addprice(100);
+		document.write("Book title is:"+mybook.title+"<br>");
+		document.write("Book author is:"+mybook.author+"<br>");
+		document.write("Book price is:"+mybook.price+"<br>");
+		document.write("Book price is:"+mybook.addprice.price+"<br>");
+	</script>
+	<script type="text/javascript">
+		var mybook = new book01("perl","mohtashim");
+		mybook.addprice(100);
+		document.write("Book title is:"+mybook.title+"<br>");
+		document.write("Book author is:"+mybook.author+"<br>");
+		document.write("Book price is:"+mybook.price+"<br>");
+		document.write("Book price is:"+mybook.addprice.price+"<br>");
+	</script>
+	<script type="text/javascript">
+		var mybook = new book02("perl","mohtashim");
+		book02.prototype.price = null;
+		mybook.price = 100;
+		document.write("Book title is:"+mybook.title+"<br>");
+		document.write("Book author is:"+mybook.author+"<br>");
+		document.write("Book price is:"+mybook.price+"<br>");
+	</script>
+	<!--<script>function employee(name, jobtitle, born){
+  				this.name = name;
+  				this.jobtitle = jobtitle;
+  				this.born = born;
+			}
+			var fred = new employee("Fred Flintstone", "Caveman", 1970);
+			document.write(fred.toSource());//This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.
+	</script>-->
+</body>
+</html>
