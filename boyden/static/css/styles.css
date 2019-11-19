@@ -1,0 +1,132 @@
+* 
+	{
+		 font-family: Arial, Verdana, sans-serif;
+	} 
+body { background-color: white;}
+h1 { font-family: "Courier New", monospace;} 
+i { color: green;} 
+i { color: red;} 
+b { color: pink;}
+p b { color: violet;} 
+p#intro { font-size: 75%;} 
+p { font-size: 100%;}
+p { color:blue;}
+.con
+{
+	width: 1920px;
+}
+p.one 
+	{
+		font-family: cursive;
+		border-width: 2px 2px 2px 2px;
+		border-style:groove;
+		border-color:#0088dd;
+		width:1420px;
+	}
+p.two 
+	{
+		font-family: cursive;
+		border-width: 2px 2px 2px 2px;
+		border-style:groove;
+		border-color:#0088dd;
+		width:1420px;
+	}
+ul.one
+	{
+		font-family: cursive;
+		border-width: 2px 2px 2px 2px;
+		border-style:groove;
+		border-color:#0088dd;
+	}
+#logo
+	{
+		width:300px;
+		margin:0px auto 0px auto;
+	}
+#container
+	{
+		overflow: hidden;
+		width:1345px;
+		height:736px;
+		margin:0px auto 10px auto;
+		padding:0px;
+		float: center;
+	}
+.mark
+	{
+		height:40px;
+		margin:2px auto 2px auto
+	}
+p.mark_01
+	{
+		margin:2px auto 2px auto;
+		text-align: center;
+		font-size: 200%;
+		color:#518bcd;
+		font-family: cursive;
+	}
+div.frame
+	{
+		width:1920px;
+		height:400px;
+		margin:0px auto 0px auto;
+		padding:0px;
+	} 
+iframe.ustc
+	{
+		width:940px;
+		height:400px;
+		margin:0px auto 0px auto;
+		padding:0px;
+		float:left;
+	}
+iframe.ustc_mail
+	{
+		width:940px;
+		height:400px;
+		margin:0px auto 0px auto;
+		padding:0px;
+		float:right;
+	}
+.none
+	{
+			height:1200px;
+	}
+.navigation
+	{
+		width:1345px;
+		height: 30px;
+		padding:10px 0px 10px 0px;
+		border-top: 2px solid #000;
+		border-bottom: 1px solid #000;
+		font-size: 200%;
+		margin: 10px auto 10px auto;
+		text-align: center;
+	}
+li
+	{
+		display:inline;
+		margin: 0px 52px;
+		padding:15px;
+		font-size: 100%;
+		text-decoration: none;
+	}
+a
+	{
+		cursor:pointer;
+	}
+a:link
+	{
+		color:#298aae;
+		text-decoration:none;
+	}
+a:visited
+	{
+		color:#298aae;
+		text-decoration:underline;
+	}
+a:hover
+	{
+		color:#298aae;
+		text-decoration:underline;
+	}
